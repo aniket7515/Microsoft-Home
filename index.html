@@ -5,22 +5,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css" integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous">
     <title>Microsoft </title>
 </head>
 <body>
-    <div class="navbar flex justify-between items-center p-4">
+    <div class="navbar flex justify-between items-center p-4 md:mx-16">
         <div class="flex justify-center align-center items-center md:order-2">
             <div class="hamburger  inline-block cursor-pointer p-4 md:hidden "> 
                 <div class="line h-0.5 w-6  my-1 bg-black "></div>
                 <div class="line h-0.5 w-6 my-1  bg-black "></div>
                 <div class="line h-0.5 w-6  my-1 bg-black "></div>
             </div>
-            <div class="search md:hidden ">SearchIcon</div>
+            <div class="search md:hidden "><i class="bi bi-search"></i></div>
 
         </div>
         
         <div class="logo text-center flex md:order-1">
-            Microsoft
+            <img class="w-28" src="logo.png " alt="">
             <div class="features absolute md:static w-fit md:w-auto md:bg-white bg-gray-50 inset-0 md:flex md:mx-4 md:space-x-2 -translate-x-96 md:-translate-x-0 ">
                 <div class="fitem">Microsoft 365</div>
                
@@ -38,6 +39,22 @@
             </div>
             
         </div>
+    </div>
+
+
+    <div class="slider flex  flex-col-reverse md:flex-row  bg-[#e6e6e6] md:mx-16">
+        <div class="left flex flex-col justify-center items-center md:items-baseline py-12 ">
+            <h1 class="text-4xl mx-5">Micorsoft 365</h1>
+            <p class="w-3/4 mx-5 text-center md:text-left">Premium Office apps, extra cloud storage, advanced security, and more – all in one convenient subscription</p>
+            <button class="bg-black text-white py-3 px-6 font-bold my-4 mx-5">Shop Now ></button>
+        </div>
+        <div class="right items-center  ">
+            <img class=" md:w-[104rem] " src="RE4DRie.webp" alt="">
+
+        </div>
+        
+        
+        
     </div>
 
 
